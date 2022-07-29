@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "jest ./src",
+    "test:watch": "jest --watch ./src",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
@@ -26,6 +27,7 @@
     "@babel/cli": "^7.18.9",
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
+    "@babel/preset-typescript": "^7.18.6",
     "@types/jest": "^28.1.6",
     "@types/node": "^18.6.2",
     "@types/webpack": "^5.28.0",
